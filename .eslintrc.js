@@ -8,13 +8,15 @@ module.exports = {
             "jsx": true
         },
         "ecmaVersion": 2018,
-        "sourceType": "module"
+        "sourceType": "module",
+        "skipBlankLines": true,
+        "stats.errorDetails": true
     },
     "plugins": [
-        "react 17.0.1"
+        "react"
     ],
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended"
-    ]
+    ],
 };
